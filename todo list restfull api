@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Todolist",
+    "dateExported": "2023-08-03T05:04:20.764Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2ee67915-e78a-4f8b-bf57-49e7dd1a5eb7",
+            "colId": "643982b2-4211-4b92-ad59-141d87f320fe",
+            "containerId": "",
+            "name": "input todo",
+            "url": "http://localhost:5000/todos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-03T05:03:25.760Z",
+            "modified": "2023-08-03T05:03:25.760Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\": \"Membersihkan Baju\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6d29e37a-4ad8-4ca8-9c60-327706f06799",
+            "colId": "643982b2-4211-4b92-ad59-141d87f320fe",
+            "containerId": "",
+            "name": "get all todo",
+            "url": "http://localhost:5000/todos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-03T05:03:33.096Z",
+            "modified": "2023-08-03T05:03:33.096Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fcda7351-0030-4d85-a792-599c79283233",
+            "colId": "643982b2-4211-4b92-ad59-141d87f320fe",
+            "containerId": "",
+            "name": "get a todo",
+            "url": "http://localhost:5000/todos/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-08-03T05:03:38.394Z",
+            "modified": "2023-08-03T05:03:38.394Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7f271e95-2cf6-4a28-890a-ecd732cef2aa",
+            "colId": "643982b2-4211-4b92-ad59-141d87f320fe",
+            "containerId": "",
+            "name": "update todo",
+            "url": "http://localhost:5000/todos/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-08-03T05:04:01.154Z",
+            "modified": "2023-08-03T05:04:01.154Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\":\"membersihkan motor\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1916b0bd-946a-4693-a673-be2a61c5a10a",
+            "colId": "643982b2-4211-4b92-ad59-141d87f320fe",
+            "containerId": "",
+            "name": "delete todo",
+            "url": "http://localhost:5000/todos/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-08-03T05:04:14.998Z",
+            "modified": "2023-08-03T05:04:14.998Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
